@@ -10,4 +10,5 @@ urlpatterns = [
     path('blog',views.blog,name="blog"),
     path('contact',views.contact,name="contact"),
     path('single',views.single,name="single"),
+    path('join-us',views.join_us,name="join-us"),
 ]
